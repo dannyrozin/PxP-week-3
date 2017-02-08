@@ -9,6 +9,7 @@ void setup() {
   String url = "https://ia802708.us.archive.org/13/items/thebibleoldandne00010gut/kjv10.txt";
   String[] rawtext = loadStrings(url);                  // gets the text into an array of strings
   allTheText = join(rawtext, "" );                      // joins everything to a long string
+  print(allTheText);
 }
 void draw() {
   loadPixels();                                          // load the pixels array of the window 
