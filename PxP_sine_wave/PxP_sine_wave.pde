@@ -1,4 +1,4 @@
-// The world pixel by pixel 2016
+// The world pixel by pixel 2018
 // Daniel Rozin
 // using a sine wave to get rich color transitions
 
@@ -12,10 +12,10 @@ void draw() {
 
   for (int x= 0; x< width; x++) {                   
     for (int y= 0; y< height; y++) {                     // repeat through all pixels
-      float sinX = sin(x/(float)(mouseX+1));           // calculate a number based on the horizontal (X) position
+      float sinX = sin(x/(mouseX+1.0));           // calculate a number based on the horizontal (X) position
       sinX =map (sinX, -1, 1, 0, 255);                 // of the pixel and the mouse , then map it to 0-255
          
-      float sinY = sin(y/(float)(mouseY+1));           // do the same with the vertical position of the pioxel and mouseY
+      float sinY = sin(y/(mouseY+1.0));           // do the same with the vertical position of the pioxel and mouseY
       sinY =map (sinY, -1, 1, 0, 255);
       
       int thisPixel = x+y*width;                       // find where this pixel lives in the pixels[]

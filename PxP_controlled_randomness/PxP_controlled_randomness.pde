@@ -1,4 +1,4 @@
-// The world pixel by pixel 2016
+// The world pixel by pixel 2018
 // Daniel Rozin
 // using a combination of randomness and user interaction to create colors
 
@@ -8,7 +8,7 @@ void setup() {
 void draw() {
   background (0);
   loadPixels();                                      // get the pixels[] of the window
-
+// randomSeed(1);                                    // if you seed the random the same it will not flicker
   for (int x= 0; x< width; x++) {             
     for (int y= 0; y< height; y++) {                     // repeat through all pixels
       int thisPixel = x+y*width;     
