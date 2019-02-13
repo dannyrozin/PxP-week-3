@@ -1,4 +1,4 @@
-// The world pixel by pixel 2018
+// The world pixel by pixel 2019
 // Daniel Rozin
 // paints one pixel on the window under the mouse
 

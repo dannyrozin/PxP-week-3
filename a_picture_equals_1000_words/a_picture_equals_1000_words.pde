@@ -1,4 +1,4 @@
-// The world pixel by pixel 2018
+// The world pixel by pixel 2019
 // Daniel Rozin
 // encodes the entire bible into a picture R,G,B,R,G,B,R,G,B
 // can take a few seconds to load
