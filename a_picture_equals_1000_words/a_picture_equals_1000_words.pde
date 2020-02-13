@@ -1,6 +1,6 @@
-// The world pixel by pixel 2019
+// The world pixel by pixel 2020
 // Daniel Rozin
-// encodes the entire bible into a picture R,G,B,R,G,B,R,G,B
+// encodes the entire bible into a picture R,G,B,R,G,B,R,G,B...
 // can take a few seconds to load
 
 String allTheText;
@@ -13,7 +13,7 @@ void setup() {
 }
 void draw() {
   loadPixels();                                          // load the pixels array of the window 
-
+  
   // this section encodes the text into pixels on the screen
   int countChar=0;
   for (int y= 0; y < height; y++) {                    // go through all pixels of the window
