@@ -1,4 +1,4 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
 // encodes the entire bible into a picture R,G,B,R,G,B,R,G,B...
 // can take a few seconds to load
@@ -25,7 +25,7 @@ void draw() {
     }
   }
   // this section decodes the pixels back to text
-  int pixUnderMouse= mouseX+mouseY*height;                 // calculate the position in the pixels array 
+  int pixUnderMouse= mouseX/3+mouseY*width/3;                 // calculate the position in the pixels array 
   String underMouse= "";                                    // of the mouse position. 
   for (int i=0; i< 20; i++) {                                // lets get 20 pixels = 60 characters
     color thisPixColor = pixels[min(pixUnderMouse, width*height-1)]; // the min()is to make sure we dont access out of the array           

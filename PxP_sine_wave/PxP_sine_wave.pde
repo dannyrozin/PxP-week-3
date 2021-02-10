@@ -1,4 +1,4 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
 // using a sine wave to get rich color transitions
 
